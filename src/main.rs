@@ -33,8 +33,5 @@ fn main() {
     }
 }
 
-// sui sui [name]
+// TODO sui sui [name]
 // adds the alias to config, creates config if it doesn't exist
-
-// sui ls
-// reads nearest(upwards) configs until a match found, executes it

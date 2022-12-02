@@ -16,6 +16,7 @@ pub struct Settings {
 
 impl Settings {
     pub fn new() -> Result<Self, ConfigError> {
+        // TODO read configs upwards
         let settings = Config::builder()
             .add_source(
                 glob(CONFIG_FILE_PATH)
